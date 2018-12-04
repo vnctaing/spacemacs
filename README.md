@@ -192,6 +192,13 @@ powerline separator put following snippet in `dotspacemacs/user-config`.
 For more information about powerline separators, please refer to appropriate
 section in [Documentation][DOCUMENTATION.org].
 
+*Note:* you might have some issues when doing some search on your projects, you 
+probably want to install grep through homebrew with default names: 
+
+```sh
+$ brew install grep --with-default-names
+```
+
 ### Windows
 
 You can download good quality builds from the [emacs-w64 project][emacs-for-windows].
